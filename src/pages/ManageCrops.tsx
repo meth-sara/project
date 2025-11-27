@@ -1,11 +1,11 @@
 import { Search, Plus } from 'lucide-react';
 
 const crops = [
-  { id: 1, name: 'Rice', category: 'Grain', season: 'Kharif', avgPrice: '₹2,500/quintal' },
-  { id: 2, name: 'Tomato', category: 'Vegetable', season: 'Year-round', avgPrice: '₹45/kg' },
-  { id: 3, name: 'Onion', category: 'Vegetable', season: 'Rabi', avgPrice: '₹30/kg' },
-  { id: 4, name: 'Wheat', category: 'Grain', season: 'Rabi', avgPrice: '₹2,000/quintal' },
-  { id: 5, name: 'Cotton', category: 'Cash Crop', season: 'Kharif', avgPrice: '₹6,000/quintal' },
+  { id: 1, name: 'Cowpea', category: 'Grain', season: 'Yala', avgPrice: 'Rs: 500/quintal' },
+  { id: 2, name: 'Tomato', category: 'Vegetable', season: 'All season', avgPrice: 'Rs: 90/kg' },
+  { id: 3, name: 'Onion', category: 'Vegetable', season: 'Maha', avgPrice: 'Rs: 1100/kg' },
+  { id: 4, name: 'Wheat', category: 'Grain', season: 'Yala', avgPrice: 'Rs: 700/quintal' },
+  { id: 5, name: 'Pumpkin', category: 'Vegetable', season: 'All season', avgPrice: 'Rs: 1,000/quintal' },
 ];
 
 export default function ManageCrops() {

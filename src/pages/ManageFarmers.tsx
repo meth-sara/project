@@ -3,11 +3,11 @@ import { MapPin, Search, Filter } from 'lucide-react';
 import StatCard from '../components/StatCard';
 
 const farmers = [
-  { id: 1, name: 'Rajesh Kumar', location: 'Punjab', crops: 'Rice, Wheat', verified: true },
-  { id: 2, name: 'Suresh Patel', location: 'Gujarat', crops: 'Cotton, Groundnut', verified: true },
-  { id: 3, name: 'Mahesh Singh', location: 'Uttar Pradesh', crops: 'Sugarcane, Potato', verified: false },
-  { id: 4, name: 'Ramesh Rao', location: 'Karnataka', crops: 'Rice, Ragi', verified: true },
-  { id: 5, name: 'Ganesh Naik', location: 'Maharashtra', crops: 'Tomato, Onion', verified: true },
+  { id: 1, name: 'M.A premadasa', location: 'Weeraketiya', crops: 'Pumpkin, Wheat', verified: true },
+  { id: 2, name: 'P.V.G Nalin', location: 'Walasmulla', crops: 'Beetroot, Cucumber', verified: true },
+  { id: 3, name: 'A.K kristi', location: 'Meegasara', crops: 'Sugarcane, Potato', verified: false },
+  { id: 4, name: 'J.J Janith', location: 'Hakmana', crops: 'Snake gourd, Beetroot', verified: true },
+  { id: 5, name: 'S.A Dayanga', location: 'Nuwara', crops: 'Carrot, Leeks', verified: true },
 ];
 
 export default function ManageFarmers() {

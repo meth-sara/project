@@ -17,15 +17,23 @@ export default function Settings() {
                 <label className="block text-sm font-medium text-gray-700 mb-2">Full Name</label>
                 <input
                   type="text"
-                  value="Admin User"
+                  value="Malindu Methsara"
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500"
+                />
+              </div>
+               <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">Phone Number</label>
+                <input
+                  type="tel"
+                  defaultValue="+91 9876543210"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500"
                 />
               </div>
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">Email</label>
                 <input
                   type="email"
-                  value="admin@smartagri.com"
+                  value="adminsmartagri@gmail.com"
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500"
                 />
               </div>
@@ -73,7 +81,7 @@ export default function Settings() {
                 <label className="block text-sm font-medium text-gray-700 mb-2">Language</label>
                 <select className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500">
                   <option>English</option>
-                  <option>Hindi</option>
+                  <option>Sinhala</option>
                   <option>Tamil</option>
                 </select>
               </div>

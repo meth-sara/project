@@ -1,11 +1,11 @@
 import { Search, Filter } from 'lucide-react';
 
 const buyers = [
-  { id: 1, name: 'Fresh Mart Pvt Ltd', type: 'Wholesaler', location: 'Mumbai', verified: true },
-  { id: 2, name: 'Green Valley Traders', type: 'Retailer', location: 'Delhi', verified: true },
-  { id: 3, name: 'Agri Connect Co.', type: 'Wholesaler', location: 'Bangalore', verified: false },
-  { id: 4, name: 'Farm Fresh Store', type: 'Retailer', location: 'Chennai', verified: true },
-  { id: 5, name: 'Organic Bazaar', type: 'Retailer', location: 'Pune', verified: true },
+  { id: 1, name: 'Good Market (Colombo)', type: 'Wholesaler', location: 'Colombo', verified: true },
+  { id: 2, name: 'Kandy Municipal Central Market (Kandy)', type: 'Retailer', location: 'Kandy', verified: true },
+  { id: 3, name: 'Bandarawela Wholesale Vegetable Market', type: 'Wholesaler', location: 'Bandarawela', verified: false },
+  { id: 4, name: 'Manning Market (Colombo)', type: 'Retailer', location: 'Colombo', verified: true },
+  { id: 5, name: 'Dedicated Economic Centres (DECs)', type: 'Retailer', location: 'Dambulla', verified: true },
 ];
 
 export default function ManageBuyers() {
